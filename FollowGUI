@@ -176,7 +176,7 @@ end)
 
 -- Open GUI with INS key
 local function onKeyPress(input)
-    if input.KeyCode == Enum.KeyCode.Insert then
+    if input.KeyCode == Enum.KeyCode.RightControl then
         if minimized then
             restore()
         else
